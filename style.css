@@ -3,5 +3,18 @@
 } */
 
 header {
-    background-color: #a52a2a;
+    background-color: #eb5f0ee8;
+}
+
+h1 {
+    color: rgba(219, 218, 133, 0.966);
+    background-color: black;
+}
+
+main {
+    background-color: rgb(247, 236, 179);
+}
+
+footer {
+    background-color: #eb5f0ee8;
 }
