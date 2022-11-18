@@ -1,8 +1,8 @@
 function hello() {  
     let usersName = prompt("What is your name?");
-   if (usersName == "") {
-   alert("You didn't type a name...");
-   usersName = prompt("Please tell me your name.");
+   while (usersName == "") {
+   alert("I need your name...");
+   usersName = prompt("Have to type your name!");
    console.log("The user's name is:" + usersName);
    document.write("Welcome to burger joint, " + usersName);} 
 }
@@ -21,3 +21,10 @@ function likeBurgers() {
         alert("Not sure what you said...");
     }
 } 
+
+function howMany(){
+    let rating = prompt("Between 1 - 5, how many burgers do you want?")
+    for (let i = 0; i < rating; i++){
+        document.write("<img class='rating-pic' src='Yum.jpg' alt='yummy burger'/>");
+    }
+}

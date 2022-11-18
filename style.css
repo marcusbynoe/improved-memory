@@ -32,5 +32,11 @@ p {
 }
 
 img {
-    width: 30%;
+    width: 20%;
+}
+
+.rating-pic {
+    width: 150px;
+    margin-left: 0%;
+    margin-right: 10%;
 }
