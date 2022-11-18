@@ -10,7 +10,7 @@ function hello() {
 
 
 function likeBurgers() {
-    let response = prompt("Do you like burgers?");
+    let response = prompt("Do you like burgers? (yes or no)");
      if (response == "yes") {
     alert("Welcome to the promise land of burgers!");
     document.write("Welcome to the promise land of burgers!");
